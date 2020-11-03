@@ -6,6 +6,7 @@ public class User {
     private int id;
     private String username;
     private String password;
+    private int age;
     private Date time;
 
     public Date getTime() {
@@ -38,6 +39,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     @Override
