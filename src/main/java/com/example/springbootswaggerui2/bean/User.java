@@ -7,6 +7,15 @@ public class User {
     private String username;
     private String password;
     private int age;
+    private Date birthday;
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
     private Date time;
 
     public Date getTime() {
