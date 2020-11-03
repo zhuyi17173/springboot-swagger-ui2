@@ -1,9 +1,20 @@
 package com.example.springbootswaggerui2.bean;
 
+import java.util.Date;
+
 public class User {
     private int id;
     private String username;
     private String password;
+    private Date time;
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
+    }
 
     public int getId() {
         return id;
@@ -35,6 +46,7 @@ public class User {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", time=" + time +
                 '}';
     }
 }
