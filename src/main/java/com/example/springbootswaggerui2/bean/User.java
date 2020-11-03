@@ -1,10 +1,21 @@
 package com.example.springbootswaggerui2.bean;
 
+import java.util.Date;
+
 public class User {
     private int id;
     private String username;
     private String password;
     private int age;
+    private Date birthday;
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
 
     public int getId() {
         return id;
