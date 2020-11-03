@@ -16,6 +16,15 @@ public class User {
     public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
+    private Date time;
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
+    }
 
     public int getId() {
         return id;
@@ -55,6 +64,8 @@ public class User {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", age=" + age +
+                ", time=" + time +
                 '}';
     }
 }
